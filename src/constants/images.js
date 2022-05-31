@@ -29,7 +29,7 @@ import gericht from "../assets/gericht.png";
   gallery01: gallery01t,
   gallery02: gallery02t,
   gallery03: gallery03t,
-  gallery04t: gallery04t,
+  gallery04: gallery04t,
   knife: knifet,
   logo: logot,
   menu: menut,
