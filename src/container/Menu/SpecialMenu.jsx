@@ -2,7 +2,7 @@ import React from 'react';
 
 import { SubHeading, MenuItem } from '../../components';
 import images from '../../constants/images';
-import data from '../../constants/data';
+import {data} from '../../constants';
 import './SpecialMenu.css';
 
 const SpecialMenu = () => (

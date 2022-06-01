@@ -56,7 +56,6 @@ const cocktails = [
   },
 ];
 
-
 const awards = [
   {
     imgUrl: images.award02,
