@@ -33,9 +33,33 @@
     margin: 0 1rem;
     cursor: pointer;
 }
+.app__navbar-links li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: var(--color-crimson);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.app__navbar-links li:hover::after{
+    width: 100%;
+}
+.app__navbar-login a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: var(--color-crimson);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.app__navbar-login a:hover::after{
+    width: 100%;
+}
 
 .app__navbar-links li:hover {
-    color: var(--color-grey);
+    color: var(--color-crimson);
 }
 
 .app__navbar-login {

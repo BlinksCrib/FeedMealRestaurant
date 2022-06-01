@@ -79,6 +79,12 @@
   outline: none;
   cursor: pointer;
 }
+.custom__button:hover {
+  color: var(--color-crimson);
+  border: 2px solid var(--color-crimson);
+  background: transparent;
+  transition: 1s ease-in-out;
+}
 
 .p__cormorant {
   font-family: var(--font-base);
