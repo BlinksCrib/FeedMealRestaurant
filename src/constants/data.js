@@ -56,6 +56,7 @@ const cocktails = [
   },
 ];
 
+
 const awards = [
   {
     imgUrl: images.award02,
@@ -79,4 +80,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default {awards, cocktails, wines} ;
