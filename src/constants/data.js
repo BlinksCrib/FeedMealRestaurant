@@ -56,6 +56,7 @@ export const cocktails = [
   },
 ];
 
+
 export const awards = [
   {
     imgUrl: images.award02,
@@ -78,3 +79,4 @@ export const awards = [
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
 ];
+
