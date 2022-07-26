@@ -1,0 +1,14 @@
+/* *{
+    cursor: none !important;
+} */
+
+.cursor{
+    background: var(--color-crimson);
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000000 !important;
+}
