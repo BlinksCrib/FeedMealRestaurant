@@ -38,10 +38,10 @@ import gericht from "../assets/gericht.png";
   welcome: welcomet,
   findus: findust,
   laurels: laurelst,
-  award01: award01t,
   award02: award02t,
-  award03: award03t,
+  award01: award01t,
   award05: award05t,
+  award03: award03t,
   sign: signt,
   quote: quotet,
 };
