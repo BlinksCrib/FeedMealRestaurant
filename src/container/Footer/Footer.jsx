@@ -19,7 +19,7 @@ const Footer = () => (
       </div>
 
       <div className='app__footer-links_logo'>
-        <h1 style={{ color: 'var(--color-golden)'}}>AJ Baby</h1>
+        <h1 style={{ color: 'var(--color-golden)' }}>AJ Baby</h1>
         <p className='p__opensans'>
           &quot;The best way to find yourself is to lose yourself in the service
           of others.&quot;
@@ -30,9 +30,15 @@ const Footer = () => (
           style={{ marginTop: 15 }}
         />
         <div className='app__footer-links_icons'>
-          <FiFacebook />
-          <FiTwitter />
-          <FiInstagram />
+          <a href=''>
+            <FiFacebook />
+          </a>
+          <a href='https://twitter.com/Blinks_Crib'>
+            <FiTwitter />
+          </a>
+          <a href='https://www.instagram.com/blinks_crib/'>
+            <FiInstagram />
+          </a>
         </div>
       </div>
 
