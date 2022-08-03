@@ -28,18 +28,28 @@ const Footer = () => (
           src={images.spoon}
           className='spoon__img'
           style={{ marginTop: 15 }}
+          alt='spoon'
         />
         <div className='app__footer-links_icons'>
           <a
             href='https://www.facebook.com/ajibola.adeyemo.969'
-            target="_blank"
+            target='_blank'
+            rel='noreferrer'
           >
             <FiFacebook />
           </a>
-          <a href='https://twitter.com/Blinks_Crib' target="_blank">
+          <a
+            href='https://twitter.com/Blinks_Crib'
+            target='_blank'
+            rel='noreferrer'
+          >
             <FiTwitter />
           </a>
-          <a href='https://www.instagram.com/blinks_crib/' target="_blank">
+          <a
+            href='https://www.instagram.com/blinks_crib/'
+            target='_blank'
+            rel='noreferrer'
+          >
             <FiInstagram />
           </a>
         </div>
